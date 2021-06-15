@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>模拟谢林实验</title>
+    <style>
+      body {
+        background-color: bisque;
+        margin: auto;
+        text-align: center;
+      }
+      canvas {
+        background-color: white;
+        margin-top: 50px;
+        border: 2px solid rgb(143, 143, 143);
+      }
+      button {
+        background-color: white;
+        border: 2px solid #008cba;
+        color: black;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #008cba;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="canvas" class="canvas" width="750" height="750"></canvas><br />
+    <button id="reset">初始化</button>
+    <button id="start">开始</button>
+    <script src="index.js"></script>
+  </body>
+</html>
